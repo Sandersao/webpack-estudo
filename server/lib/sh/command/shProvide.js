@@ -1,4 +1,3 @@
-const ShData = require('../ShData')
 const sh = require('../sh')
 
 module.exports = () => {
