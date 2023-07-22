@@ -1,0 +1,1 @@
+(()=>{"use strict";let e;const t=t=>{e!=t&&null!=e&&location.reload(),e!=t&&(e=t)};setInterval((()=>{fetch("./bundle.hash").then((e=>e.text())).then(t)}),6e4),console.log("Teste")})();
