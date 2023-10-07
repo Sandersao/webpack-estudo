@@ -1,3 +1,3 @@
-export default function bar() {
+export default () => {
     console.log('Teste');
 }
