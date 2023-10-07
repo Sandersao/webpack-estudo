@@ -1,24 +1,20 @@
 {
-  "name": "projeto_cartola",
+  "name": "webpack_estudo",
   "version": "1.0.0",
-  "description": "",
-  "main": "webpack.config.js",
+  "description": "Project to bring up information for creation of webpack projects",
+  "main": "webpack.config.cjs",
+  "type": "module",
   "scripts": {
-    "build": "npx webpack",
-    "buildHash": "node ./server/bondleHash.js",
-    "start": "node ./server/start.js port=8080",
-    "dev": "nodemon ./server/dev.js port=8080",
+    "build": "npx webpack --watch",
+    "provide": "npx http-server ./dist --port=8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sanderson A. Rocha",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^3.0.1",
-    "webpack": "^5.88.1"
-  },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.3",
+    "http-server": "^14.1.1",
+    "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4"
   }
 }
